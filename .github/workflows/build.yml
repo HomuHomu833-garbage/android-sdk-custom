@@ -288,7 +288,7 @@ jobs:
                   -DCMAKE_CXX_FLAGS="$CXXFLAGS" \
                   -Dprotobuf_BUILD_TESTS=OFF \
                   -DABSL_PROPAGATE_CXX_STD=ON \
-                  -DCMAKE_BUILD_TYPE=MinSizeRel \
+                  -DCMAKE_BUILD_TYPE=RelWithDebInfo \
                   -DPROTOC_PATH="$protoc"
 
               local start_time=$(date +%s)
